@@ -14,6 +14,7 @@ The most basic Express server using TypeScript
 ```env
 # APPLICATION
 PORT=3000
+API_PREFIX=/api
 
 # Sentry
 SENTRY_DSN=
