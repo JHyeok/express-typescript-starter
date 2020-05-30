@@ -13,6 +13,7 @@ export const env = {
   isProduction: process.env.NODE_ENV === "production",
   app: {
     port: Number(process.env.PORT) || 4000,
+    apiPrefix: process.env.API_PREFIX || "/api",
   },
   sentry: {
     dsn: process.env.SENTRY_DSN,
